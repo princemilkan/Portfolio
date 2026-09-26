@@ -226,7 +226,7 @@ body:before{content:"";position:fixed;inset:-20vmax;z-index:-4;pointer-events:no
 body:after{content:"";position:fixed;inset:0;z-index:-3;pointer-events:none;opacity:.18;background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.04) 1px,transparent 1px);background-size:58px 58px;mask-image:radial-gradient(circle at 50% 35%,#000 0 26%,transparent 78%);animation:gridDrift 28s linear infinite}
 @keyframes ambientShift{0%{transform:translate3d(-2%,-1%,0) scale(1)}50%{transform:translate3d(2%,1.5%,0) scale(1.04)}100%{transform:translate3d(0,-2%,0) scale(1.02)}}
 @keyframes gridDrift{to{background-position:58px 58px}}
-main,.site-header,.site-footer,.mobile-dock,.mobile-menu{position:relative;z-index:1}
+main,.site-footer{position:relative;z-index:1}
 .section,.section-tight{background:linear-gradient(180deg,rgba(248,247,244,.90),rgba(244,242,238,.84));backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
 .section-dark{background:linear-gradient(145deg,rgba(9,11,16,.88),rgba(18,21,29,.80));backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
 .site-footer{background:linear-gradient(145deg,rgba(7,9,13,.93),rgba(11,13,19,.88));backdrop-filter:blur(18px)}
